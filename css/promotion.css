@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* Import */
+
+@import "./vh.css";
+/* components */
+@import "./components/invite.css";
+@import "./components/creator.css";
+@import "./components/store.css";
+@import "./components/recipe.css";
+@import "./components/faq.css";
+
+body {
+  font-family: "나눔 고딕", NanumGothic, "돋움", sans-serif;
+  width: 100%;
+}
+
+/* header 영역 */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 66px;
+  background-color: rgba(64, 64, 64, 0.75);
+}
+.header_box {
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  height: 66px;
+  margin: auto;
+}
+.header_box .logo a {
+  display: inline-block;
+}
+/* Section 영역 */
+section {
+}
+/* Footer 영역 */
+footer {
+  width: 100%;
+  background-color: #e0e4eb;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1920px;
+  height: 80px;
+  background-color: #e0e4eb;
+}
+footer p {
+  font-size: 18px;
+  color: #70757d;
+  text-align: center;
+}
+footer p strong {
+  font-weight: bold;
+}
+/* Top 버튼 */
+.top-btn {
+  position: fixed;
+  right: 0;
+  bottom: 180px;
+}
+.top-btn a {
+  display: inline-block;
+}

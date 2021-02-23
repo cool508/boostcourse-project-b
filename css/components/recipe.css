@@ -1,0 +1,65 @@
+.section__recipe {
+  width: 100%;
+  background-color: #b893f9;
+}
+.content-bg {
+  position: relative;
+  margin: 0 auto;
+  width: 1920px;
+  height: 1030px;
+  background-color: #b893f9;
+}
+.content-bg .pattern {
+  position: absolute;
+  margin: -92px 0 0 0;
+  top: 50%;
+  width: 1920px;
+  height: 185px;
+  background: url(../../image/pattern_recipe.png) repeat-x;
+  z-index: 1;
+}
+.section__recipe-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -340px 0 0 -490px;
+  width: 980px;
+  height: 681px;
+  background: url(../../image/section_recipe.png) no-repeat;
+  z-index: 2;
+}
+.section__recipe-content .recipe-list {
+  position: absolute;
+  bottom: -2px;
+}
+.section__recipe-content .recipe-list::after {
+  content: "";
+  clear: both;
+}
+.section__recipe-content .recipe-list li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.section__recipe-content .recipe-list li:last-child {
+  margin: 0;
+}
+.section__recipe-content .recipe-list li a {
+  display: inline-block;
+  width: 480px;
+  height: 482px;
+}
+.recipe-link {
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: 30px;
+  margin: 0 0 0 -155px;
+  width: 310px;
+  height: 91px;
+  background: url(../../image/go_recipe.gif) no-repeat;
+}
+
+.recipe-link:hover,
+.recipe-link:focus-visible {
+  background: url(../../image/go_recipe_over.gif);
+}

@@ -1,0 +1,15 @@
+.section__creator {
+  width: 100%;
+  background-color: #f9939d;
+}
+.section__creator-content {
+  margin: 0 auto;
+  width: 1920px;
+  background-color: #f9939d;
+}
+.section__creator-content div {
+  width: 980px;
+  height: 822px;
+  margin: 0 auto;
+  background: url(../../image/section_creator.jpg) 0 0 no-repeat;
+}

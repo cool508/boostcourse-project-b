@@ -1,0 +1,10 @@
+.section__invite {
+  width: 100%;
+  background-color: #fff;
+}
+.section__invite-content {
+  margin: 0 auto;
+  width: 1920px;
+  height: 750px;
+  background: url(../../image/section_invite.jpg) no-repeat;
+}
